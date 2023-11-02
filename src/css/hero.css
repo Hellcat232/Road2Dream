@@ -1,0 +1,123 @@
+.hero {
+  background-color: #121212;
+  padding: 90px 20px 80px 20px;
+  background-image: url(/img/hero/hero-bg-mob-1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(/img/hero/hero-bg-mob-2x.png);
+  }
+}
+
+.hero-container {
+  background-color: #1d1d1d;
+  border-radius: 30px;
+  padding: 40px 20px 0 20px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.04em;
+  margin-bottom: 20px;
+}
+
+.hero-title-span {
+  color: #bea69e;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.11;
+  letter-spacing: 0.04em;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+}
+
+.hero-flex {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.hero-student-list {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.hero-student-item:not(:first-child) {
+  transform: translateX(-12px);
+}
+
+.hero-student-item:last-child {
+  transform: translateX(-24px);
+}
+
+.hero-reviews-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #bea69e;
+  margin-right: 12px;
+}
+
+.hero-reviews {
+  display: flex;
+}
+
+.hero-reviews-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.hero-reviews-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+}
+
+.hero-reviews-number {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
+}
+
+.hero-student-text {
+  display: inline-block;
+  width: 67px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  margin-bottom: 31px;
+}
+
+.hero-student-text::after {
+}
+
+.hero-photographer {
+  margin: 0 auto;
+}
