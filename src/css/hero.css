@@ -2,8 +2,8 @@
   background-color: #121212;
   padding-top: 20px;
   padding-bottom: 80px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   min-width: 320px;
   /* background-image: url(/img/hero/hero-bg-mob-1x.png);
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 } */
 
 .hero-container {
-  max-width: 375px;
+  max-width: 320px;
   margin: 0 auto;
   background-color: #1d1d1d;
   border-radius: 30px;
@@ -137,7 +137,7 @@
 
 @media screen and (min-width: 375px) {
   .hero-container {
-    max-width: 375px;
+    max-width: 335px;
   }
 }
 
