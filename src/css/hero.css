@@ -2,6 +2,9 @@
   background-color: #121212;
   padding-top: 20px;
   padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 320px;
   /* background-image: url(/img/hero/hero-bg-mob-1x.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -17,6 +20,8 @@
 } */
 
 .hero-container {
+  max-width: 375px;
+  margin: 0 auto;
   background-color: #1d1d1d;
   border-radius: 30px;
   padding: 40px 20px 0 20px;
@@ -59,6 +64,10 @@
   display: flex;
   align-items: center;
   margin-right: 16px;
+}
+
+.hero-student-icon {
+  width: 44px;
 }
 
 .hero-student-item:not(:first-child) {
@@ -116,9 +125,28 @@
   margin-bottom: 31px;
 }
 
-.hero-student-text::after {
+.hero-stroke {
+  /* display: inline-block; */
+  fill: #fff;
+  stroke: #fff;
 }
 
 .hero-photographer {
   margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+  .hero-container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    max-width: 768px;
+  }
+
+  .hero-student-icon {
+    width: 54px;
+  }
 }

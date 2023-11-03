@@ -13,34 +13,76 @@
       <ul class="hero-student-list">
         <li class="hero-student-item">
           <picture>
-            <source media="(min-width: 768px)" src="" />
-            <source media="(min-width: 768px)" src="" />
+            <source media="(min-width: 1280px)" srcset="" />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./img/hero/student-1-tab-1x.png 1x,
+                ./img/hero/student-1-tab-2x.png 2x
+              "
+            />
+            <source
+              media="(min-width: 375px)"
+              srcset="
+                ./img/hero/student-1-1x.png 1x,
+                ./img/hero/student-1-2x.png 2x
+              "
+            />
+
             <img
-              srcset="./img/hero/student-1-1x.png, ./img/hero/student-1-2x.png"
+              class="hero-student-icon"
+              src="./img/hero/student-1-tab-1x.png"
               alt="photo of student"
-              width="44"
             />
           </picture>
         </li>
         <li class="hero-student-item">
           <picture>
-            <source media="(min-width: 768px)" src="" />
-            <source media="(min-width: 768px)" src="" />
+            <source media="(min-width: 1280px)" srcset="" />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./img/hero/student-2-tab-1x.png 1x,
+                ./img/hero/student-2-tab-2x.png 2x
+              "
+            />
+            <source
+              srcset="
+                ./img/hero/student-2-1x.png 1x,
+                ./img/hero/student-2-2x.png 2x
+              "
+              media="(min-width: 375px)"
+            />
+
             <img
-              srcset="./img/hero/student-2-1x.png, ./img/hero/student-2-2x.png"
+              class="hero-student-icon"
+              src="./img/hero/student-2-tab-1x.png"
               alt="photo of student"
-              width="44"
             />
           </picture>
         </li>
         <li class="hero-student-item">
           <picture>
-            <source media="(min-width: 768px)" src="" />
-            <source media="(min-width: 768px)" src="" />
+            <source media="(min-width: 1280px)" srcset="" />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./img/hero/student-3-tab-1x.png 1x,
+                ./img/hero/student-3-tab-2x.png 2x
+              "
+            />
+            <source
+              media="(min-width: 375px)"
+              srcset="
+                ./img/hero/student-3-1x.png 1x,
+                ./img/hero/student-3-2x.png 2x
+              "
+            />
+
             <img
-              srcset="./img/hero/student-3-1x.png, ./img/hero/student-3-2x.png"
+              class="hero-student-icon"
+              src="./img/hero/student-3-tab-1x.png"
               alt="photo of student"
-              width="44"
             />
           </picture>
         </li>
@@ -53,7 +95,12 @@
         </div>
       </div>
     </div>
-    <a href="#reviews" class="hero-student-text">Our happy students</a>
+    <a href="#reviews" class="hero-student-text"
+      >Our happy students
+      <svg class="hero-stroke" width="18" height="9">
+        <use href="./img/hero/stroke.svg"></use>
+      </svg>
+    </a>
     <img
       class="hero-photographer"
       srcset="
@@ -61,7 +108,6 @@
         ./img/hero/photographer-mob-2x.png
       "
       alt="photographer"
-      width="259"
     />
   </div>
 </section>
