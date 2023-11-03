@@ -1,19 +1,20 @@
 .hero {
   background-color: #121212;
-  padding: 90px 20px 80px 20px;
-  background-image: url(/img/hero/hero-bg-mob-1x.png);
+  padding-top: 20px;
+  padding-bottom: 80px;
+  /* background-image: url(/img/hero/hero-bg-mob-1x.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 
-@media screen and (min-device-pixel-ratio: 2),
+/* @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
     background-image: url(/img/hero/hero-bg-mob-2x.png);
   }
-}
+} */
 
 .hero-container {
   background-color: #1d1d1d;
