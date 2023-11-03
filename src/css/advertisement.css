@@ -1,0 +1,38 @@
+.marquee {
+    overflow: hidden;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+}
+
+.marquee__inner {
+    display: flex;
+}
+
+.marquee__line {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marqueeLine {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.beige {
+    color: #BEA69E;
+}
