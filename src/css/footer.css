@@ -1,6 +1,8 @@
 .footer {
-  padding: 40px 20px 20px 20px;
   background-image: url('../img/footer/background-img.png');
+}
+.footer-container {
+  padding: 40px 20px 20px 20px;
 }
 .container {
   max-width: 375px;
@@ -82,7 +84,6 @@
   background-color: #fff;
   padding-left: 18px;
   border: none;
-  /* margin-right: 8px; */
 }
 .footer-input::placeholder {
   color: #121212;
@@ -122,16 +123,21 @@
   line-height: 1.33;
 }
 
+@media screen and (min-width: 375px) {
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
   .footer {
+    background-image: url(../img/footer/backgroung-image-tab.png);
+  }
+  .footer-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 50px 32px 25px 32px;
-    background-image: url(../img/footer/backgroung-image-tab.png);
   }
   .footer-logo-wrap {
     margin-right: 58px;
@@ -162,8 +168,10 @@
     max-width: 1240px;
   }
   .footer {
-    padding: 50px 0 25px 0;
     background-image: url(../img/footer/backgroung-image-desk.png);
+  }
+  .footer-container {
+    padding: 50px 0 25px 0;
   }
   .footer-logo-wrap {
     margin-right: 341px;
