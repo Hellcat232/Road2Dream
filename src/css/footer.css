@@ -163,15 +163,15 @@
   }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1240px;
+    max-width: 1280px;
   }
   .footer {
     background-image: url(../img/footer/backgroung-image-desk.png);
   }
   .footer-container {
-    padding: 50px 0 25px 0;
+    padding: 50px 20px 25px 20px;
   }
   .footer-logo-wrap {
     margin-right: 341px;
