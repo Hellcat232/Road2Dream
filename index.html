@@ -20,14 +20,105 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/Road2Dream/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Road2Dream/assets/index-4dbfae6e.css">
+    <link rel="stylesheet" href="/Road2Dream/assets/index-fe5595a5.css">
   </head>
   <body>
     <header></header>
 
     <main>
-      <section>
-  <h1>hero</h1>
+      <section class="hero">
+  <div class="hero-container">
+    <h1 class="hero-title">
+      Discover the magic of <span class="hero-title-span">photography</span> in
+      our school
+    </h1>
+    <p class="hero-text">
+      Our photography school offers an unforgettable journey, where you can
+      learn the basics of composition, master technical skills, translate your
+      unique ideas.
+    </p>
+    <div class="hero-flex">
+      <div class="hero-flex-column">
+        <ul class="hero-student-list">
+          <li class="hero-student-item">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="/Road2Dream/assets/student-1-tab-1x-18e25722.png 1x, /Road2Dream/assets/student-1-tab-2x-42a4b8b7.png 2x"
+              />
+
+              <img
+                class="hero-student-icon"
+                srcset="/Road2Dream/assets/student-1-1x-4f9922e1.png 1x, /Road2Dream/assets/student-1-2x-3d1a7566.png 2x"
+                alt="photo of student"
+              />
+            </picture>
+          </li>
+          <li class="hero-student-item">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/Road2Dream/assets/student-2-tab-1x-e77ae5f9.png 1x, /Road2Dream/assets/student-2-tab-2x-6a2951d0.png 2x"
+              />
+
+              <img
+                class="hero-student-icon"
+                srcset="data:image/png;base64,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 1x, /Road2Dream/assets/student-2-2x-3be8b530.png 2x"
+                alt="photo of student"
+              />
+            </picture>
+          </li>
+          <li class="hero-student-item">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/Road2Dream/assets/student-3-tab-1x-a1a06635.png 1x, /Road2Dream/assets/student-3-tab-2x-6eb3d5fc.png 2x"
+              />
+
+              <img
+                class="hero-student-icon"
+                srcset="/Road2Dream/assets/student-3-1x-c42bc741.png 1x, /Road2Dream/assets/student-3-2x-000a0b4c.png 2x"
+                alt="photo of student"
+              />
+            </picture>
+          </li>
+        </ul>
+        <a href="#reviews" class="hero-student-link"
+          ><span class="hero-student-text">Our happy students</span>
+          <svg class="hero-stroke" width="18" height="9">
+            <use href="/Road2Dream/assets/icons-a92e2496.svg#icon-arrow"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-reviews">
+        <div class="hero-reviews-circle">
+          <svg class="hero-icon-star" width="20" height="20">
+            <use href="/Road2Dream/assets/icons-a92e2496.svg#icon-star"></use>
+          </svg>
+        </div>
+        <div class="hero-reviews-column">
+          <p class="hero-reviews-text">Reviews</p>
+          <p class="hero-reviews-number">+1500</p>
+        </div>
+      </div>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="/Road2Dream/assets/photographer-note-1x-ddd72862.png 1x, /Road2Dream/assets/photographer-note-2x-4865ebb1.png 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/Road2Dream/assets/photographer-tab-1x-a1392247.png 1x, /Road2Dream/assets/photographer-tab-2x-fab7533c.png 2x"
+      />
+
+      <img
+        class="hero-photographer"
+        srcset="/Road2Dream/assets/photographer-mob-1x-b0dc8b6f.png 1x, /Road2Dream/assets/photographer-mob-2x-71c1c69d.png 2x"
+        alt="photographer"
+      />
+    </picture>
+  </div>
 </section>
 
       <section class="adv">
