@@ -165,7 +165,7 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 12800px;
+    max-width: 1280px;
   }
   .footer {
     background-image: url(../img/footer/backgroung-image-desk.png);
@@ -188,7 +188,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
   }
@@ -211,4 +211,4 @@
   .footer-text-wrap {
     gap: 935px;
   }
-}
+} */
