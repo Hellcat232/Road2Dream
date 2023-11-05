@@ -1,10 +1,13 @@
-.header {
+.container {
+  max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0 auto;
+}
+.header {
   padding-top: 20px;
 }
 .header-container {
-  width: 288px;
   height: 50px;
   padding: 9px 20px;
   align-items: center;
@@ -42,6 +45,7 @@
 /****menu-mobile****/
 
 .menu-mob {
+  width: 218px;
   padding-top: 20px;
   position: fixed;
   top: 0;
@@ -91,13 +95,8 @@
   line-height: normal;
   text-transform: uppercase;
 }
-
-/****mobile****/
-
-@media screen and (max-width: 375px) {
-  .container {
-    width: 100%;
-  }
+.mob-img {
+  width: 100%;
 }
 
 /****tablet****/
@@ -105,11 +104,12 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    margin: 0;
   }
   .header {
+    display: flex;
     padding-left: 32px;
     padding-right: 32px;
-    display: flex;
   }
   .header-container {
     margin-right: 14px;
@@ -139,6 +139,21 @@
   }
   .btn-camera {
     display: none;
+  }
+  .menu-mob {
+    width: 480px;
+  }
+  .menu-close-btn {
+    margin-left: 408px;
+    margin-bottom: 172px;
+  }
+  .menu-mob-catalogue {
+    margin-left: 64px;
+    margin-bottom: 114px;
+    gap: 28px;
+  }
+  .mob-img {
+    width: 100%;
   }
 }
 
@@ -189,6 +204,9 @@
     display: none;
   }
   .unlock-menu {
+    display: none;
+  }
+  .menu-mob {
     display: none;
   }
 }
