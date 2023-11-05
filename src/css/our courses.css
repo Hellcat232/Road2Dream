@@ -122,7 +122,9 @@ margin-top: 164px;
 
 
 /* ==================== MOBILE ===================== */
-@media screen and (min-width: 375px) {}
+@media screen and (min-width: 375px) {
+    
+}
 
 
 /* ==================== TABLET ===================== */
