@@ -165,13 +165,38 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    max-width: 12800px;
   }
   .footer {
     background-image: url(../img/footer/backgroung-image-desk.png);
   }
   .footer-container {
-    padding: 50px 20px 25px 20px;
+    padding: 50px 100px 25px 100px;
+  }
+  .footer-logo-wrap {
+    margin-right: 285px;
+  }
+  .footer-text-wrap {
+    gap: 773px;
+  }
+  .footer-soc-wrapper {
+    gap: 50px;
+  }
+  .footer-input {
+    width: 216px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .footer {
+    background-image: url(../img/footer/backgroung-image-desk.png);
+  }
+  .footer-container {
+    padding: 50px 100px 25px 100px;
   }
   .footer-logo-wrap {
     margin-right: 341px;
