@@ -1,3 +1,121 @@
-<section>
-  <h1>hero</h1>
+<section class="hero">
+  <div class="hero-container">
+    <h1 class="hero-title">
+      Discover the magic of <span class="hero-title-span">photography</span> in
+      our school
+    </h1>
+    <p class="hero-text">
+      Our photography school offers an unforgettable journey, where you can
+      learn the basics of composition, master technical skills, translate your
+      unique ideas.
+    </p>
+    <div class="hero-flex">
+      <div class="hero-flex-column">
+        <ul class="hero-student-list">
+          <li class="hero-student-item">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/hero/student-1-tab-1x.png 1x,
+                  ./img/hero/student-1-tab-2x.png 2x
+                "
+              />
+
+              <img
+                class="hero-student-icon"
+                srcset="
+                  ./img/hero/student-1-1x.png 1x,
+                  ./img/hero/student-1-2x.png 2x
+                "
+                alt="photo of student"
+              />
+            </picture>
+          </li>
+          <li class="hero-student-item">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/hero/student-2-tab-1x.png 1x,
+                  ./img/hero/student-2-tab-2x.png 2x
+                "
+              />
+
+              <img
+                class="hero-student-icon"
+                srcset="
+                  ./img/hero/student-2-1x.png 1x,
+                  ./img/hero/student-2-2x.png 2x
+                "
+                alt="photo of student"
+              />
+            </picture>
+          </li>
+          <li class="hero-student-item">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/hero/student-3-tab-1x.png 1x,
+                  ./img/hero/student-3-tab-2x.png 2x
+                "
+              />
+
+              <img
+                class="hero-student-icon"
+                srcset="
+                  ./img/hero/student-3-1x.png 1x,
+                  ./img/hero/student-3-2x.png 2x
+                "
+                alt="photo of student"
+              />
+            </picture>
+          </li>
+        </ul>
+        <a href="#reviews" class="hero-student-link"
+          ><span class="hero-student-text">Our happy students</span>
+          <svg class="hero-stroke" width="18" height="9">
+            <use href="./img/icons.svg#icon-arrow"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-reviews">
+        <div class="hero-reviews-circle">
+          <svg class="hero-icon-star" width="20" height="20">
+            <use href="./img/icons.svg#icon-star"></use>
+          </svg>
+        </div>
+        <div class="hero-reviews-column">
+          <p class="hero-reviews-text">Reviews</p>
+          <p class="hero-reviews-number">+1500</p>
+        </div>
+      </div>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./img/hero/photographer-note-1x.png 1x,
+          ./img/hero/photographer-note-2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/hero/photographer-tab-1x.png 1x,
+          ./img/hero/photographer-tab-2x.png 2x
+        "
+      />
+
+      <img
+        class="hero-photographer"
+        srcset="
+          ./img/hero/photographer-mob-1x.png 1x,
+          ./img/hero/photographer-mob-2x.png 2x
+        "
+        alt="photographer"
+      />
+    </picture>
+  </div>
 </section>
