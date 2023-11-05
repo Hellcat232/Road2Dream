@@ -1,21 +1,8 @@
 .hero {
   background-color: #121212;
-  padding-top: 20px;
   padding-bottom: 80px;
   min-width: 320px;
-  /* background-image: url(/img/hero/hero-bg-mob-1x.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 }
-
-/* @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(/img/hero/hero-bg-mob-2x.png);
-  }
-} */
 
 .hero-container {
   max-width: 335px;
@@ -148,6 +135,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 100px;
+  }
+
   .hero-container {
     max-width: 704px;
     padding: 64px 32px 0 32px;
@@ -237,6 +228,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-bottom: 150px;
+  }
+
   .hero-container {
     max-width: 1080px;
     padding: 80px 50px 0 50px;
