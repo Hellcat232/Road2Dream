@@ -1,6 +1,5 @@
 .footer {
   background-image: url('../img/footer/background-img.png');
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 .footer-container {
   padding: 40px 20px 20px 20px;
@@ -133,7 +132,6 @@
   }
   .footer {
     background-image: url(../img/footer/backgroung-image-tab.png);
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
   .footer-container {
     display: flex;
@@ -171,7 +169,6 @@
   }
   .footer {
     background-image: url(../img/footer/backgroung-image-desk.png);
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
   .footer-container {
     padding: 50px 100px 25px 100px;
