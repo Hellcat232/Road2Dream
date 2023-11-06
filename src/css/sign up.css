@@ -26,6 +26,7 @@
   width: 337px;
 }
 .sign-up-input-name {
+  color: #fff;
   width: 100%;
   height: 46px;
   border-radius: 12px;
@@ -35,6 +36,7 @@
   padding-left: 18px;
 }
 .sign-up-input-email {
+  color: #fff;
   width: 100%;
   height: 46px;
   border-radius: 12px;
@@ -44,6 +46,7 @@
   padding-left: 18px;
 }
 .sign-up-textarea {
+  color: #fff;
   width: 100%;
   height: 112px;
   resize: none;
