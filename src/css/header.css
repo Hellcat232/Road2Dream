@@ -3,6 +3,9 @@
   padding-top: 20px;
   margin: 0 auto;
 }
+.header {
+  padding-top: 20px;
+}
 .header-container {
   height: 50px;
   padding: 9px 20px;
@@ -99,14 +102,17 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    display: flex;
+    max-width: 768px;
+    margin: 0;
   }
   .header {
-    max-width: 768px;
-    margin: 0 auto;
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .header-container {
     margin-right: 14px;
+    width: 504px;
     height: 60px;
     padding: 9px 20px;
     border-radius: 12px;
@@ -155,7 +161,8 @@
 
 @media screen and (min-width: 1280px) {
   .header {
-    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
     align-items: center;
     display: flex;
     padding-left: 0;
@@ -165,7 +172,7 @@
     align-items: center;
   }
   .header-container {
-    padding: 22px 50px;
+    width: 822px;
     height: 60px;
     margin-right: 20px;
   }
@@ -184,9 +191,12 @@
     font-weight: 400;
     text-transform: uppercase;
   }
-  .header-about:hover {
+  .about:hover {
     font-weight: 700;
     color: #bea69e;
+  }
+  .link-signup {
+    padding: 16px 84px;
   }
   .btn-camera {
     display: none;
