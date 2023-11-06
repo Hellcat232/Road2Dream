@@ -1,6 +1,6 @@
 .header {
+  max-width: 375px;
   padding-top: 20px;
-  padding-bottom: 20px;
   margin: 0 auto;
 }
 .header {
@@ -131,6 +131,7 @@
     border-radius: 12px;
     padding: 16px 58px;
     border: none;
+    color: #121212;
   }
   .link-signup:hover {
     background-color: #1d1d1d;
@@ -159,14 +160,12 @@
 /****desktop****/
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
   .header {
     padding-left: 100px;
     padding-right: 100px;
     align-items: center;
     display: flex;
+    padding-left: 0;
   }
   .header-navigation {
     display: flex;
