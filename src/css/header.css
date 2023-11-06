@@ -102,13 +102,12 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    display: flex;
     margin: 0;
   }
   .header {
+    max-width: 768px;
     display: flex;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .header-container {
     margin-right: 14px;
@@ -161,18 +160,20 @@
 
 @media screen and (min-width: 1280px) {
   .header {
-    padding-left: 100px;
-    padding-right: 100px;
+    max-width: 1280px;
     align-items: center;
     display: flex;
     padding-left: 0;
+  }
+  .container {
+    display: flex;
   }
   .header-navigation {
     display: flex;
     align-items: center;
   }
   .header-container {
-    width: 822px;
+    min-width: 822px;
     height: 60px;
     margin-right: 20px;
   }
