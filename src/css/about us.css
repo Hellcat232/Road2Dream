@@ -1,4 +1,5 @@
 .about-section {
+  padding-top: 80px;
   padding-bottom: 40px;
 }
 
@@ -47,7 +48,7 @@
 
 @media screen and (min-width: 768px) {
   .about-section {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
 
   .container {
@@ -86,7 +87,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-section {
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
   }
 
   .container {
