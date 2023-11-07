@@ -1,45 +1,47 @@
 <header class="header">
-  <div class="container">
+  <!-- <div class="container"> -->
+  <div class="header-wrap">
     <div class="header-container">
+      <a href="./index.html">
+        <svg class="header-logo">
+          <use href="./img/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
       <nav class="header-navigation">
-        <a href="./index.html">
-          <img
-            class="header-logo"
-            srcset="./img/header/tablogo.jpg"
-            src="./img/header/moblogo.jpg"
-            alt="logo"
-            width="123"
-            height="16"
-          />
-        </a>
         <ul class="header-menu">
-          <li class="menu-list">
-            <a href="#" class="menu-link header-about">About us</a>
+          <li class="header-menu-list">
+            <a href="#about-us" class="header-menu-link header-about">About us</a>
           </li>
-          <li class="menu-list">
-            <a href="#" class="menu-link">Our courses</a>
+          <li class="header-menu-list">
+            <a href="#our-courses" class="header-menu-link">Our courses</a>
           </li>
-          <li class="menu-list">
-            <a href="#" class="menu-link">Our mentors</a>
+          <li class="header-menu-list">
+            <a href="#our-mentors" class="header-menu-link">Our mentors</a>
           </li>
-          <li class="menu-list"><a href="#" class="menu-link">Reviews</a></li>
-          <li class="menu-list"><a href="#" class="menu-link">Contacts</a></li>
+          <li class="header-menu-list"><a href="#reviews" class="header-menu-link">Reviews</a></li>
+          <li class="header-menu-list"><a href="#contacts" class="header-menu-link">Contacts</a></li>
         </ul>
       </nav>
-      <button class="btn-camera" type="button">
-        <svg class="link-signup-foto" height="16" width="16">
-          <use href="./img/icons.svg#icon-camera"></use>
-        </svg>
-      </button>
-      <button type="button" class="unlock-menu" id="burger">
-        <svg class="road-mob" width="32" height="22">
-          <use href="./img/icons.svg#icon-menu-mob"></use>
-        </svg>
-      </button>
+
+      <div class="header-mob-wrap">
+        <a class="link-camera" href="#sign-up">
+          <svg class="signup-anchor" height="16" width="16">
+            <use href="./img/icons.svg#icon-camera"></use>
+          </svg>
+        </a>
+
+        <button type="button" class="unlock-menu" id="burger">
+          <svg class="road-mob" width="32" height="22">
+            <use href="./img/icons.svg#icon-menu-mob"></use>
+          </svg>
+        </button>
+      </div>
     </div>
-    <a href="#" class="link-signup">Sign up</a>
+
+    <a href="#sign-up" class="header-link-signup">Sign up</a>
   </div>
-  <div class="menu-mob">
+
+  <div class="header-menu-mob">
     <button type="button" class="menu-close-btn">
       <svg class="menu-icon-btn" width="32" height="32">
         <use href="./img/icons.svg#icon-close"></use>
@@ -62,13 +64,7 @@
         <a href="#" class="menu-mob-link">Contacts</a>
       </li>
     </ul>
-    <img
-      srcset="./img/header/Rectanglemobile.jpg"
-      src="./img/header/Rectangletablet.jpg"
-      alt="photo-camera"
-      width="218"
-      height="329"
-      class="mob-img"
-    />
+    <img srcset="./img/header/Rectanglemobile.jpg" src="./img/header/Rectangletablet.jpg" alt="photo-camera" width="218"
+      height="329" class="mob-img" />
   </div>
 </header>
