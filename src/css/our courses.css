@@ -97,6 +97,9 @@ opacity: 100%;
 
 .courses-top-icon {
 fill: rgba(255, 255, 255, 0.40);
+transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .courses-top-icon:hover {
