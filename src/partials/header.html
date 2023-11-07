@@ -41,30 +41,42 @@
     <a href="#sign-up" class="header-link-signup">Sign up</a>
   </div>
 
+
   <div class="header-menu-mob">
-    <button type="button" class="menu-close-btn">
-      <svg class="menu-icon-btn" width="32" height="32">
-        <use href="./img/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-    <ul class="menu-mob-catalogue">
-      <li class="menu-mob-list">
-        <a href="#" class="menu-mob-link about-mob">About us</a>
-      </li>
-      <li class="menu-mob-list">
-        <a href="#" class="menu-mob-link">Our courses</a>
-      </li>
-      <li class="menu-mob-list">
-        <a href="#" class="menu-mob-link">Our mentors</a>
-      </li>
-      <li class="menu-mob-list">
-        <a href="#" class="menu-mob-link">Reviews</a>
-      </li>
-      <li class="menu-mob-list">
-        <a href="#" class="menu-mob-link">Contacts</a>
-      </li>
-    </ul>
-    <img srcset="./img/header/Rectanglemobile.jpg" src="./img/header/Rectangletablet.jpg" alt="photo-camera" width="218"
-      height="329" class="mob-img" />
+    <div class="menu-mob-top">
+      <button type="button" class="menu-close-btn">
+        <svg class="menu-icon-btn" width="32" height="32">
+          <use href="./img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="menu-mob-catalogue">
+        <li class="menu-mob-list">
+          <a href="#about-us" class="menu-mob-link about-mob">About us</a>
+        </li>
+        <li class="menu-mob-list">
+          <a href="#our-courses" class="menu-mob-link">Our courses</a>
+        </li>
+        <li class="menu-mob-list">
+          <a href="#our-mentors" class="menu-mob-link">Our mentors</a>
+        </li>
+        <li class="menu-mob-list">
+          <a href="#reviews" class="menu-mob-link">Reviews</a>
+        </li>
+        <li class="menu-mob-list">
+          <a href="#contacts" class="menu-mob-link">Contacts</a>
+        </li>
+      </ul>
+    </div>
+    <picture>
+      <source srcset="
+        ./img/header/rectangle-tab.jpeg    1x,
+        ./img/header/rectangle-tab-2x.jpeg 2x" media="(min-width:768px)" />
+      <source srcset="
+        ./img/header/rectangle-mob.jpeg    1x,
+        ./img/header/rectangle-mob-2x.jpeg 2x" media="(min-width:320px)" />
+      <img class="menu-mob-img" src="./img/header/rectangle-tab.jpeg" alt="photo-camera">
+    </picture>
+  </div>
+  <div class="backdrop">
   </div>
 </header>
