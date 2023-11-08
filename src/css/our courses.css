@@ -1,5 +1,4 @@
 .our-courses {
-padding-top: 80px;
 padding-bottom: 80px;
 background-color: #121212;
 }
@@ -43,6 +42,7 @@ flex-direction: column;
 gap: 20px;
 list-style-position: inside;
 padding-left: 0;
+margin-top: 0;
 }
 
 .our-courses-list .our-courses-item::marker {
@@ -95,6 +95,10 @@ background-color: #BEA69E;
 opacity: 100%;
 }
 
+.our-courses-link:focus {
+background-color: #BEA69E;
+opacity: 100%;
+}
 .courses-top-icon {
 fill: rgba(255, 255, 255, 0.40);
 transition-property: fill;
@@ -103,6 +107,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .courses-top-icon:hover {
+fill: #FFFFFF;
+}
+
+.courses-top-icon:focus {
 fill: #FFFFFF;
 }
 
@@ -139,7 +147,6 @@ padding-right: 32px;
 } 
 
 .our-courses {
-padding-top: 100px;
 padding-bottom: 100px;
 }
 
@@ -197,7 +204,6 @@ padding-right: 100px;
 }
 
 .our-courses {
-padding-top: 150px;
 padding-bottom: 150px;
 }
 
