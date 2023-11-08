@@ -3,7 +3,7 @@
 }
 
 .adv {
-  /* margin-bottom: 80px; */
+  margin-bottom: 80px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 768px) {
   .adv {
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -65,7 +65,7 @@
 
 @media screen and (min-width: 1280px) {
   .adv {
-    /* margin-bottom: 150px; */
+    margin-bottom: 150px;
     padding-top: 24px;
     padding-bottom: 24px;
   }
