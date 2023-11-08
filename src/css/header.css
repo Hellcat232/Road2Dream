@@ -8,6 +8,10 @@
 } */
 
 .header {
+  max-width: 375px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
   min-width: 320px;
 }
 
@@ -18,7 +22,7 @@
 
 .header-wrap {
   width: 100%;
-  max-width: 335px;
+  /* max-width: 335px; */
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -115,7 +119,7 @@ border-radius: 50%;
   border: none;
   background-color: #bea69e;
   display: flex;
-  padding-bottom: 128px;
+  margin-bottom: 128px;
   margin-left: auto;
 }
 .menu-icon-btn {
@@ -171,14 +175,14 @@ border-radius: 50%;
     margin: 0;
   } */
   .header {
-    display: flex;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
 
   .header-wrap {
     padding-bottom: 40px;
-    max-width: 704px;
+    /* max-width: 704px; */
     display: flex;
     gap: 14px;
     justify-content: space-between;
@@ -242,7 +246,7 @@ border-radius: 50%;
     width: 40px;
     height: 40px;
     margin-left: auto;
-    padding-bottom: 172px;
+    margin-bottom: 172px;
   }
   .menu-mob-catalogue {
     gap: 28px;
@@ -261,8 +265,7 @@ border-radius: 50%;
 
 @media screen and (min-width: 1280px) {
   .header {
-    align-items: center;
-    display: flex;
+    max-width: 1280px;
     padding-right: 100px;
     padding-left: 100px;
   }
@@ -274,6 +277,7 @@ border-radius: 50%;
   .header-wrap {
     max-width: 1080px;
     gap: 20px;
+    padding-bottom: 80px;
   }
 
   .header-container {
