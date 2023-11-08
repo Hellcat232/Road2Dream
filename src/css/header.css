@@ -13,6 +13,8 @@
   padding-left: 20px;
   margin: 0 auto;
   min-width: 320px;
+  background-image: url(/img/hero-bg-mob-2x.png);
+  flex-shrink: 0;
 }
 
 .header-logo {
@@ -42,14 +44,12 @@
 }
 .header-link-signup {
   display: none;
-  
 }
 
-
 .link-camera {
-padding: 6px 8px 2px 8px;
-background-color: #1D1D1D;
-border-radius: 50%;
+  padding: 6px 8px 2px 8px;
+  background-color: #1d1d1d;
+  border-radius: 50%;
 }
 
 .header-mob-wrap {
@@ -98,16 +98,15 @@ border-radius: 50%;
   pointer-events: none;
   z-index: 2;
   overflow: auto;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-mob-top {
   padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-
+  padding-right: 20px;
+  padding-left: 20px;
 }
-
 
 .menu-mob-link {
   font-size: 14px;
@@ -155,13 +154,14 @@ border-radius: 50%;
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(18, 18, 18, 0.40);
+  background-color: rgba(18, 18, 18, 0.4);
   top: 0;
   left: 0;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
 }
 
@@ -174,7 +174,7 @@ border-radius: 50%;
 /****tablet****/
 
 @media screen and (min-width: 768px) {
-/* 
+  /* 
   .container {
     max-width: 768px;
     margin: 0;
@@ -200,10 +200,9 @@ border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
 
-
   .header-logo {
-        width: 123px;
-        height: 16px;
+    width: 123px;
+    height: 16px;
     /* margin-right: 301px; */
   }
 
@@ -223,7 +222,8 @@ border-radius: 50%;
     border-radius: 12px;
     border: none;
     color: #121212;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-link-signup:hover,
@@ -231,7 +231,7 @@ border-radius: 50%;
     background-color: #1d1d1d;
     color: #bea69e;
   }
-  
+
   .link-camera {
     display: none;
   }
@@ -242,12 +242,11 @@ border-radius: 50%;
     padding-left: 64px; */
   }
 
-    .menu-mob-top {
-      padding-top: 20px;
-      padding-right: 32px;
-      padding-left: 64px;
-  
-    }
+  .menu-mob-top {
+    padding-top: 20px;
+    padding-right: 32px;
+    padding-left: 64px;
+  }
 
   .menu-close-btn {
     width: 40px;
@@ -310,7 +309,8 @@ border-radius: 50%;
     text-transform: uppercase;
     line-height: normal;
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-menu-link:hover,
@@ -324,7 +324,8 @@ border-radius: 50%;
     height: 60px;
     flex-shrink: 0;
     padding: 16px 84px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-link-signup:hover,
@@ -346,6 +347,6 @@ border-radius: 50%;
   }
 
   .header-mob-wrap {
-      display: none;
-    }
+    display: none;
+  }
 }
