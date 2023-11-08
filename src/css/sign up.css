@@ -100,7 +100,7 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 100px 0 100px 32px;
+    padding: 0px 0 100px 32px;
   }
   .sign-up-input-box {
     width: 480px;
@@ -133,7 +133,7 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 150px 100px 150px 100px;
+    padding: 0px 100px 150px 100px;
   }
   .sign-up {
     display: flex;
