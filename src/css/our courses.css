@@ -3,16 +3,16 @@ padding-bottom: 80px;
 background-color: #121212;
 }
 
-.container {
+.our-courses-container {
 max-width: 375px;
-padding-left: 20px;
-padding-right: 20px;
 margin-left: auto;
 margin-right: auto;
 }
 
 .our-courses-info {
 margin-bottom: 40px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .our-courses-title {
@@ -140,14 +140,14 @@ margin-top: 164px;
 
 /* ==================== TABLET ===================== */
 @media screen and (min-width: 768px) {
-.container {
+.our-courses-container {
 max-width: 768px;
-padding-left: 32px;
-padding-right: 32px;
 } 
 
 .our-courses {
 padding-bottom: 100px;
+padding-left: 32px;
+padding-right: 32px;
 }
 
 .our-courses-item {
@@ -197,14 +197,14 @@ letter-spacing: -0.02em;
 
 /* ==================== DESKTOP ===================== */
 @media screen and (min-width: 1280px) {
-.container {
+.our-courses-container {
 max-width: 1280px;
-padding-left: 100px;
-padding-right: 100px;
 }
 
 .our-courses {
 padding-bottom: 150px;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 .our-courses-item {
