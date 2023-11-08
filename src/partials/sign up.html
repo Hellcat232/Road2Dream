@@ -5,9 +5,23 @@
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
     </p>
-    <input type="text" placeholder="Enter your name" name="user-name" class="sign-up-input-name" />
-    <input type="email" placeholder="Enter your email" name="user-email" class="sign-up-input-email" />
-    <textarea name="message" placeholder="Message" class="sign-up-textarea" id="message-sign"></textarea>
+    <input type="text" 
+    placeholder="Enter your name" 
+    name="user-name"  
+    class="sign-up-input-name" />
+    <input type="email" 
+    placeholder="Enter your email" 
+    name="user-email" 
+    class="sign-up-input-email"
+    id="user-email"
+    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" 
+    required/>
+    <textarea name="message" 
+    placeholder="Message" 
+    class="sign-up-textarea" 
+    id="message-sign"
+    required
+    ></textarea>
     <button type="submit" class="sign-up-button">Send</button>
     <p class="sign-up-submit">
       By clicking on “Send” button, you agree to our

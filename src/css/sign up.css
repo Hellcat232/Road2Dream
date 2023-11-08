@@ -93,7 +93,7 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 100px 0 100px 32px;
+    padding: 0px 0px 100px 32px;
   }
   .sign-up-input-box {
     width: 480px;
@@ -112,6 +112,12 @@
     height: 60px;
     margin-bottom: 14px;
   }
+  .sign-up-input-email:focus:valid:not(:placeholder-shown){
+    border-color: rgba(252, 249, 249, 0.60);
+  }
+  .sign-up-input-email:invalid:not(:placeholder-shown){
+    border-color: tomato;
+  }
   .sign-up-textarea {
     height: 119px;
   }
@@ -126,7 +132,7 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 150px 100px 150px 100px;
+    padding: 0px 100px 150px 100px;
   }
   .sign-up {
     display: flex;
