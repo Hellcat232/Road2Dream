@@ -3,7 +3,7 @@ padding-bottom: 80px;
 background-color: #121212;
 }
 
-.container {
+.our-courses-container {
 max-width: 375px;
 margin-left: auto;
 margin-right: auto;
@@ -140,7 +140,7 @@ margin-top: 164px;
 
 /* ==================== TABLET ===================== */
 @media screen and (min-width: 768px) {
-.container {
+.our-courses-container {
 max-width: 768px;
 } 
 
@@ -197,7 +197,7 @@ letter-spacing: -0.02em;
 
 /* ==================== DESKTOP ===================== */
 @media screen and (min-width: 1280px) {
-.container {
+.our-courses-container {
 max-width: 1280px;
 }
 
