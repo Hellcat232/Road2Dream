@@ -241,7 +241,7 @@ body {
 
   .section-mentors {
     background-color: #121212;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
 
   .section-mentors-caption {
@@ -277,7 +277,7 @@ body {
     border-radius: 50%;
     width: 180px;
     height: 180px;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
   }
 
   .mentors-caption {
@@ -288,6 +288,7 @@ body {
     line-height: 32px;
     letter-spacing: 0em;
     text-align: center;
+    width: 194px;
   }
 
   .mentors-paragraph {
