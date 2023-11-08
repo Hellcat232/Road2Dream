@@ -7,6 +7,7 @@
   max-width: 375px;
   padding-right: 20px;
   padding-left: 20px;
+  margin: 0 auto;
 }
 
 .about-title {
@@ -28,6 +29,7 @@
 }
 
 .about-picture {
+  display: block;
   margin-bottom: 40px;
 }
 
