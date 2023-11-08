@@ -13,7 +13,7 @@
   padding-left: 20px;
   margin: 0 auto;
   min-width: 320px;
-  background-image: url(/img/hero-bg-mob-2x.png);
+  /* background-image: url(/img/hero-bg-mob-2x.png); */
   flex-shrink: 0;
 }
 

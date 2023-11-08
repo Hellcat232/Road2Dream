@@ -15,6 +15,23 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
+/* .wrap-background {
+  background-image: url(/img/hero-bg-mob-1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .wrap-background {
+    background-image: url(/img/hero-bg-mob-2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+} */
 .wrap-background {
   background-image: url(/img/hero-bg-mob-1x.png);
   background-repeat: no-repeat;
@@ -32,7 +49,6 @@
     background-size: cover;
   }
 }
-
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
