@@ -114,3 +114,32 @@
     justify-content: space-between;
   }
 }
+
+
+@media screen and (min-width: 1440px){ 
+  .about-section{
+    padding-bottom: 150px;
+  }
+  .about-container{
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .about-picture{
+    margin-bottom: 0;
+  }
+  .about-text{
+    width: 314px;
+    max-width: 314px;
+  }
+  .one{
+    width: 276px;
+  }
+  .about-text-flex{
+    gap: 40px;
+  }
+  .about-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}

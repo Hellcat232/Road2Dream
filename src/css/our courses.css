@@ -13,6 +13,8 @@ padding-right: 20px;
 
 .our-courses-info {
 margin-bottom: 40px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .our-courses-title {
@@ -149,12 +151,12 @@ margin-top: 164px;
 @media screen and (min-width: 768px) {
 .our-courses-container {
 max-width: 768px;
-padding-left: 32px;
-padding-right: 32px;
 } 
 
 .our-courses {
 padding-bottom: 100px;
+padding-left: 32px;
+padding-right: 32px;
 }
 
 .our-courses-item {
@@ -206,12 +208,12 @@ letter-spacing: -0.02em;
 @media screen and (min-width: 1280px) {
 .our-courses-container {
 max-width: 1280px;
-padding-left: 100px;
-padding-right: 100px;
 }
 
 .our-courses {
 padding-bottom: 150px;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 .our-courses-item {
