@@ -185,3 +185,20 @@
     display: inline;
   }
 }
+
+/* ===========1440 VERSION========= */
+
+@media screen and (min-width: 1440px) {
+  .conteiner {
+    max-width: 1440px;
+  }
+
+  .reviews-list {
+    width: 610px;
+  }
+
+  .reviews-descr {
+    width: 570px;
+    padding-bottom: 20px;
+  }
+}
