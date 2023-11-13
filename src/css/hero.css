@@ -287,3 +287,15 @@
     right: 50px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    max-width: 1240px;
+    padding: 80px 50px 0 50px;
+    position: relative;
+  }
+
+  .hero-photographer {
+    right: 100px;
+  }
+}
